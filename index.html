@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cpec saint babeth tss current converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+  <div class="converter-box">
+    <h2>cpec saint babeth tss current converter</h2> 
+    <div class="row">
+      <input type="number" id="amount" placeholder="enter  Amount" />
+      <select id="fromCurrency">
+        <option value="RWF">RWF</option>
+          <option value="USD">USD - US Dollar</option>
+    <option value="EUR">EUR - Euro</option>
+    <option value="GBP">GBP - British Pound</option>
+    <option value="KES">KES - Kenyan Shilling</option>
+    <option value="UGX">UGX - Ugandan Shilling</option>
+     <option value="RWF">RWF-Rwandan francs</option>
+      </select>
+      <select id="toCurrency">
+         <option value="RWF">RWF-Rwandan francs</option>
+        <option value="USD">USD - US Dollar</option>
+    <option value="EUR">EUR - Euro</option>
+    <option value="GBP">GBP - British Pound</option>
+    <option value="KES">KES - Kenyan Shilling</option>
+    <option value="UGX">UGX - Ugandan Shilling</option>
+      </select>
+    </div>
+
+    <div class="row bottom-row">
+      <button onclick="convert()">Convert</button>
+      <div id="result" class="result-box"></div>
+    </div>
+  </div>
+<div class="box">
+      <h2>Calculator</h2>
+      <input class="calc-display" id="calc-display" disabled>
+      <div class="calculator-buttons" id="calc-buttons"></div>
+  <script src="script.js"></script>
+</body>
+</html>
